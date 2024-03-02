@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, View } from 'react-native';
+import { Image, SafeAreaView, View } from 'react-native';
 
 import { styles } from './styles';
 import { InputComLabel } from '../../components/InputComLabel';
@@ -9,6 +9,8 @@ import JardimFacape from '../../assets/jardimFacape.png';
 export default function login() {
   return (
     <View style={styles.container}>
+      <Image source={JardimFacape} style={styles.background}/>
+      
       <InputComLabel 
         label='Matrícula' 
         placeholder='Digite sua matrícula' 
@@ -24,6 +26,7 @@ export default function login() {
       <View style={styles.buttonContainer}>
         <Button buttonName='Entrar' />
       </View>
+
     </View>
   );
 }

@@ -11,5 +11,12 @@ export const styles = StyleSheet.create({
     marginTop: 20,
     width: '60%',
     height: 50,
+  },
+  background: {
+    flex: 1,
+    resizeMode: 'cover',
+    justifyContent: 'center',
+    position: 'absolute',
+    left: -100,
   }
 });
