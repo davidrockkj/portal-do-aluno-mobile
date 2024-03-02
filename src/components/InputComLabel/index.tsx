@@ -17,7 +17,7 @@ export function InputComLabel( { label, placeholder, secureTextEntry}: InputComL
     <View style={styles.container}>
       <Text style={styles.labelText}>{label}</Text>
       <TextInput
-        style={[styles.input, blur ? {} : styles.inputFocus ]}
+        style={[styles.input, blur ? styles.inputFocus : {} ]}
         placeholder={placeholder || 'Digite aqui'}
         secureTextEntry={secureTextEntry === 'true' ? true : false}
         onFocus={ () => setBlur(true)}
