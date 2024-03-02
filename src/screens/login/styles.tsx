@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    width: '50%',
+    width: '60%',
     justifyContent: 'flex-start',
     alignItems: 'flex-end',
   },
@@ -11,11 +11,12 @@ export const styles = StyleSheet.create({
     flex: 1,
     width: '100%',
     marginTop: 50,
-    alignItems: 'flex-end',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   buttonContainer: {
     marginTop: 20,
-    width: '60%',
+    width: '100%',
     height: 50,
     justifyContent: 'flex-end',
   },
