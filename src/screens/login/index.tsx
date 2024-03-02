@@ -1,5 +1,5 @@
 import React from 'react';
-import { View } from 'react-native';
+import { SafeAreaView, View } from 'react-native';
 
 import { styles } from './styles';
 import { InputComLabel } from '../../components/InputComLabel';
@@ -20,7 +20,9 @@ export default function login() {
         secureTextEntry='true'
       />
 
-      <Button buttonName='Entrar' />
+      <View style={styles.buttonContainer}>
+        <Button buttonName='Entrar' />
+      </View>
     </View>
   );
 }
