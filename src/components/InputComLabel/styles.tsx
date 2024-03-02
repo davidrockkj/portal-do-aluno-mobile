@@ -3,7 +3,9 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   container: {
     width: '100%',
-    marginBottom: 10
+    marginBottom: 10,
+    borderBottomWidth: 3,
+    borderColor: '#213E98',
   },
   labelText: {
     fontSize: 16,
@@ -13,16 +15,17 @@ export const styles = StyleSheet.create({
   },
   input: {
     width: '100%',
-    borderWidth: 3,
-    borderColor: '#213E98',
-    borderRadius: 10,
     padding: 10,
     color: 'grey',
-    fontSize: 16
+    fontSize: 16,
+    marginBottom: 5,
+    backgroundColor: '#D9D9D9',
+    borderRadius: 10,
   },
   inputFocus: {
     color: '#fff',
     fontWeight: 'bold',
-    backgroundColor: '#213E98'
+    backgroundColor: '#213E98',
+    borderRadius: 10,
   }
 });

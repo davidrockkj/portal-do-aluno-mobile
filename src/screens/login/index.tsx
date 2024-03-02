@@ -10,10 +10,10 @@ export default function login() {
   return (
     <View style={styles.container}>
       <Image source={JardimFacape} style={styles.background}/>
-      
+
       <InputComLabel 
         label='Matrícula' 
-        placeholder='Digite sua matrícula' 
+        placeholder='00000' 
         secureTextEntry='false'
       />
 

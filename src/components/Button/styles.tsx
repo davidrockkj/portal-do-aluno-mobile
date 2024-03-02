@@ -7,8 +7,7 @@ export const styles = StyleSheet.create({
     height: '100%',
   },
   button: {
-    borderColor: '#213E98',
-    borderWidth: 3,
+    backgroundColor: '#213E98',
     padding: 10,
     paddingHorizontal: 30,
     borderRadius: 10,
@@ -16,7 +15,7 @@ export const styles = StyleSheet.create({
   textButton: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#213E98',
+    color: '#fff',
     textAlign: 'center',
   }
 });
