@@ -4,6 +4,7 @@ import { SafeAreaView, View } from 'react-native';
 import { styles } from './styles';
 import { InputComLabel } from '../../components/InputComLabel';
 import { Button } from '../../components/Button';
+import JardimFacape from '../../assets/jardimFacape.png';
 
 export default function login() {
   return (
