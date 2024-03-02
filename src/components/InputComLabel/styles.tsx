@@ -8,6 +8,7 @@ export const styles = StyleSheet.create({
   labelText: {
     fontSize: 16,
     fontWeight: 'bold',
+    color: '#213E98',
   },
   input: {
     width: '100%',

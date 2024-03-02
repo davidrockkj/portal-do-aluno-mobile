@@ -12,6 +12,12 @@ export default function login() {
         placeholder='Digite sua matrícula' 
         secureTextEntry='false'
       />
+
+      <InputComLabel 
+        label='Senha' 
+        placeholder='Digite sua senha' 
+        secureTextEntry='true'
+      />
     </View>
   );
 }
